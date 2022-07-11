@@ -875,16 +875,19 @@ fill: #ffffff;
             border-radius: 4px;
            color: #ffffff;
         }
+.form-checkbox-custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid #9da4bd;
+    outline-offset: -2px;
+    border-radius: 8px;
 
-        .modal-title {
-            display: block;
-            margin-bottom: 12px;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 1.15;
-            letter-spacing: 0.03em;
-            text-align: center;
-        }
+    transition: outline-color 250ms, background-color 250ms;
+}
+
         
         .modal-input-wrp {
             position: relative;
@@ -964,7 +967,9 @@ fill: #ffffff;
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
-              
+                fill: #040404;
+                border: #2F303A;
+                
             }
             
            
