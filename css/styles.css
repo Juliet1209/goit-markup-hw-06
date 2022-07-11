@@ -373,6 +373,7 @@ color: #757575;
     display: flex;
    justify-content: center ;
    margin-right: 70px;
+
     
 }
 .social-media-item{
@@ -988,4 +989,20 @@ fill: #ffffff;
                 opacity: 1;
             }
             
+            .checkbox-btn{
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 1.88;
+                
+                letter-spacing: 0.06em;
+                background-color: #2196F3;
+                color: #FFFFFF;
+                padding: 10px 32px;
+                margin-top: 20px;
+                
+                border: none;
+
+            }
            
