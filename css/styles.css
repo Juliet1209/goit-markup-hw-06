@@ -980,6 +980,11 @@ fill: #ffffff;
             .form-checkbox-contract {
                 color: #757575;
             }
+            .form-checkbox-contract:hover,
+            .form-checkbox-contract:focus{
+                color:#2196F3;
+            }
+
             
             .form-checkbox-input:not(:checked)+.form-checkbox-icon.empty {
                 opacity: 1;
@@ -990,6 +995,7 @@ fill: #ffffff;
             }
             
             .checkbox-btn{
+                display: flex;
                 align-items: center;
                 justify-content: center;
                 font-weight: 700;
