@@ -300,7 +300,7 @@ max-width: 700px;
     background-color: #2196F3;
     text-align: center;
     border-radius: 4px;
-    
+    cursor: pointer;
 }
 
 .main-btn:hover,
